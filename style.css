@@ -1,0 +1,219 @@
+h1{
+    font-size: 50px;
+    color:  black;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    text-align: center;
+  }
+
+  h2{
+    font-size: 40px;
+    color:  black;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    text-align: center;
+
+  }
+
+  h3{
+    font-size: 30px;
+    color:  rgb(82, 80, 80);
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    text-align: center;
+  }
+
+  
+  body {
+    background-color: whitesmoke;
+    font-size: 20px;
+    color: black;
+    text-align: center; 
+  }
+
+.box{
+display: flex;
+justify-content: center;
+}
+
+.image{
+width:350px;
+height: 300px;
+}
+.texto{
+margin-left: 15px;
+}
+.soneca{
+    animation: spin 4s linear infinite;
+    fill: #FFF;
+    transform-origin: 5% 5%;
+  }
+
+
+@keyframes spin{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-3deg);
+    }
+}
+
+.passarinho1{
+    animation: voa 4s ease-in-out alternate infinite;
+}
+
+@keyframes voa{
+    0%{
+        transform: translate(100px, 200px);
+    }
+
+    33%{
+        transform: translate(-100px, -300px)
+    }
+
+    66%{
+        transform: translate(200px, 200px);
+        }
+    
+    100%{
+        transform: translate(200px, -300px)
+    }
+}
+
+.passarinho2{
+    animation: voa3 3s ease-in-out alternate infinite;
+}
+
+@keyframes voa3{
+    0%{
+        transform: translate(100px, 300px);
+    }
+
+    33%{
+        transform: translate(-200px, -300px)
+    }
+
+    66%{
+        transform: translate(200px, 300px);
+        }
+    
+    100%{
+        transform: translate(200px, -300px)
+    }
+}
+
+
+.mosquito{
+    animation: voar 2.5s ease-in-out alternate infinite;
+}
+
+
+@keyframes voar{
+    0%{
+        transform: translate(2000px, 0px);
+    }
+
+    50%{
+        transform: translate(-4000px, 0px)
+    }
+
+    100%{
+        transform: translate(3000px, -1000px);
+        }
+
+}
+
+
+.pupila{
+    animation: olhar 2.5s ease-in-out alternate infinite;
+}
+
+.brilho{
+    animation: brilhar 2.5s ease-in-out alternate infinite;
+}
+
+@keyframes brilhar{
+    0%{
+        transform: translate(5px, 0px);
+    }
+
+    50%{
+        transform: translate(-8px, 0px)
+    }
+
+    100%{
+        transform: translate(7px, -4px);
+        }
+
+}
+
+@keyframes olhar{
+    0%{
+        transform: translate(30px, 0px);
+    }
+
+    50%{
+        transform: translate(-50px, 0px)
+    }
+
+    100%{
+        transform: translate(40px, -20px);
+        }
+
+}
+
+
+.rabo-cat{
+    transform-origin: 3000px 12400px;
+        animation: balanca-rabo 1.5s ease-out alternate infinite;
+        fill:#ED467A;  }
+
+@keyframes balanca-rabo{
+  0%{ transform: rotate(10deg); }
+
+  100%{ transform:rotate(-5seg);}
+  }
+
+  .varinha{
+    transform-origin: 31200px 4800px;
+        animation: balanca-corda 0.8s ease-out alternate infinite;
+        fill:#ED467A;  }
+
+@keyframes balanca-corda{
+  0%{ transform: rotate(5deg); }
+
+  100%{ transform:rotate(-10deg);}
+  }
+
+  .bracinho{
+    transform-origin: 31800px 9100px;
+        animation: balanca-pata 0.8s ease-out alternate infinite;
+        fill:#ED467A;  }
+
+@keyframes balanca-pata{
+  0%{ transform: rotate(10deg); }
+
+  100%{ transform:rotate(-7deg);}
+  }
+
+  .rabo-chico{
+    transform-origin: 33300px 11100px;
+        animation: balanca-rabo 0.8s ease-out alternate infinite;
+        fill:#ED467A;  }
+
+    @keyframes balanca-rabo{
+  0%{ transform: rotate(10deg); }
+
+  100%{ transform:rotate(-10deg);}
+  }
+
+.abajur{
+	animation: luz 0.7s ease-in-out infinite alternate;
+}
+
+@keyframes luz{
+0%{
+opacity:0.85;
+}
+100%{
+opacity:1;
+}
+}
