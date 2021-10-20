@@ -1,6 +1,8 @@
 # comp-graf-trab1
 Repositório para alocar o trabalho 1 da disciplina de Introdução à Computação Gráfica: manipulação de SVG.
 
+Visualize a página em: https://htmlpreview.github.io/?https://github.com/nicolessouza/comp-graf-trab1/blob/main/index.html
+
 Desenvolvido para a disciplina, este trabalho teve o intuito de explorar técnicas de transformação
 e animação com SVG. O primeiro passo foi fazer um desenho base através da plataforma CorelDRAW onde foi possível
 explorar diferentes técnicas para enriquecer o cenário. Com o código base em mãos, cada parte da arte foi explorada
